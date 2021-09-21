@@ -1,28 +1,22 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. Operations.
-       AUTHOR. YesICan.
+       AUTHOR. BuiBui.
        DATE-WRITTEN. 2021-09-21.
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       01 N PIC 9(3).
-       01 Result PIC 9(2).
-       01 Rem PIC 9(2).
+       01 age PIC 9(4).
+       01 result PIC 9(4).
 
        PROCEDURE DIVISION.
-           MOVE 10 TO N.
-           DISPLAY "N = " N.
-           ADD 2 TO N.
-           DISPLAY "N = " N.
-           SUBTRACT 3 FROM N.
-           DISPLAY "N = " N.
-           SUBTRACT 3 FROM N GIVING Result.
-           DISPLAY "N = " N.
-           DISPLAY "Result = " Result.
-           MULTIPLY 3 BY N.
-           DISPLAY "N = " N.
-           DIVIDE 8 INTO N GIVING Result.
-           DISPLAY "Result = " Result.
-           DIVIDE 8 INTO N GIVING Result REMAINDER Rem.
-           DISPLAY "Result = " Result.
-           DISPLAY "Remainder = " Rem.
+           MOVE 1450 TO age.
+           DISPLAY "age = " age.
+           ADD 3 TO age.
+           DISPLAY "age = " age.
+           SUBTRACT 11 FROM age.
+           DISPLAY "age = " age.
+           MULTIPLY 2 BY age.
+           DISPLAY "age = " age.
+           DIVIDE 2 INTO age GIVING result.
+           DISPLAY "age = " age.
+           DISPLAY "result = " result.
